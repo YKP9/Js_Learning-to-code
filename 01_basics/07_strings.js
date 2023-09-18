@@ -21,4 +21,15 @@ let favBook = new String('NeverFinished') // aanother way to declare string.
 // let reversedString= newString.join("")
 // console.log(`The reversed string is  ${reversedString}`);
 
+//substring slice endsat trim tostring includes replace charat 
 
+let finalMatch = new String('IndiaVsSrilanka') 
+
+// console.log(finalMatch.substring(0,5)); // it makes a new string starting from index number given and will stop before the final number given , the last number is leftout.
+console.log(finalMatch.substring(-9,1));
+console.log(finalMatch.substring(9,4));  // below difference in substring it automatiacally swaps the number if index 
+
+console.log(finalMatch.slice(9,4));  
+
+//difference in substring and slice prototyoe method
+// The substring() method swaps its two arguments if indexStart is greater than indexEnd , meaning that a string is still returned. The slice() method returns an empty string if this is the case
