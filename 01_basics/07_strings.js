@@ -33,3 +33,13 @@ console.log(finalMatch.slice(9,4));
 
 //difference in substring and slice prototyoe method
 // The substring() method swaps its two arguments if indexStart is greater than indexEnd , meaning that a string is still returned. The slice() method returns an empty string if this is the case
+
+console.log(finalMatch.endsWith('lank'));  // checks the given string is at the end if yes prints true else gives false.
+
+// console.log(finalMatch.trim()); //removes teh whitespace ate both ends
+
+const qoute = "FINISH WHAT YOU START";
+
+const word = 'is'
+
+console.log(`the word ${word} are ${qoute.includes(word)? 'is': 'is not'} in the sentence`)// checks whether the given word is there in the string.
