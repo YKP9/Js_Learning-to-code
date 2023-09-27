@@ -65,12 +65,41 @@ const users = [
 // console.log(users[3].id);
 // users[2].email
 
-console.log(instaUser);
+// console.log(instaUser);
 // to print only keys
-console.log(Object.keys(instaUser));  // gives the ouput in array
-console.log(Object.values(instaUser));
+// console.log(Object.keys(instaUser));  // gives the ouput in array
+// console.log(Object.values(instaUser));
 
-console.log(Object.entries(instaUser)); // changes the object into an array.
+// console.log(Object.entries(instaUser)); // changes the object into an array.
 
 // hasownproperty checks whether this particular instance is there in in object or not.
-console.log(instaUser.hasOwnProperty('isLoggedIn'));
+// console.log(instaUser.hasOwnProperty('isLoggedIn'));
+
+// destructure of objects or data
+const course = {
+    coursename : "JavaScript",
+    durationinMonths : 3,
+    courseInstructor: "Hitesh Choudhary"
+}
+
+
+// is used to avoid object.instanceName meaning => course.coursename everytime , its like shortcut to access
+const {coursename} = course
+console.log(coursename);
+
+// here we can also make shortform of instance names
+const{courseInstructor:HC} = course
+console.log(HC);
+
+
+// JSON
+
+// {
+//     "name" : "Yashwanth Pillai" 
+//     "id" : "455362$%^4"
+//     "password" : "dif-9uI"
+// }
+// it is basic structure of json format {JSON} => JAVASCRIPT OBJECT NOTATION.
+
+// json format can also be an array and ↑object↑.
+
