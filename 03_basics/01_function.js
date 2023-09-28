@@ -88,10 +88,15 @@ const newObject = {
     items : 5,
     totalAmount: 15976
 }
+// const{usernamee}=newObject
+
 function userObject(anyObject){
+    // in user name destructure is tried...
+    // return `The UserName is ${usernamee} , items are ${newObject.items} ,Total amount is ${newObject.totalAmount}`
+    //two methods
     return `The UserName is ${anyObject.usernamee} , items are ${anyObject.items} ,Total amount is ${anyObject.totalAmount}`
 }
-// console.log(userObject());  two methods for output
+console.log(userObject(newObject));  //two methods for output
 
 // console.log(userObject({
 //     usernamee:"piygasg",
