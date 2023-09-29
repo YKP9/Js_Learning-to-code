@@ -64,3 +64,5 @@ console.log(subTwoNum(10,1));
 const user2 = (name) => ({username: "Yashwanth"})
 
 console.log(user2());
+// this in arrow function refers to global object.
+// this in arrow function differs as it assumes context outside of the scope it gives undefined everytime . it refers to window object in arrow function. in normal function it works  
