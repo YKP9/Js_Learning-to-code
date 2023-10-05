@@ -62,4 +62,16 @@ for (let i = 1; i <=10 ; i++) {
     console.log(element);
 }
 // here 5 is skipped.
+console.log("\n");
 
+// loops for array 
+
+
+
+let myArr = ['Y','A','S','H','W','A','N','T','H']
+console.log(myArr.length);
+for (let i = 0; i < myArr.length; i++) {
+    const element = myArr[i];
+    console.log(element);
+    
+}
