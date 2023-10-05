@@ -41,13 +41,15 @@
  // after u iteration will be stopped due to break.
  // we can also use break and continue in for of loop
 
+ // for of in map
+ // map is object , where every key is to be unique.
  const coutryCapitals = new Map()
 
  coutryCapitals.set("India","Delhi")
  coutryCapitals.set("France","Paris")
  coutryCapitals.set("USA","New YORK")
 
- for (const [key] of coutryCapitals) {
-    console.log(key);
+ for (const [key,value] of coutryCapitals) {
+    console.log(key, ":-", value);
     
  }
